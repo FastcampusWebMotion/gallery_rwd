@@ -107,5 +107,40 @@ main ul li.on a {
   color: #fff;
   box-shadow: 0px 5px 20px rgba(0, 255, 255, 0.5);
 }
+main section {
+  width: 100%;
+}
+main section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+main section article {
+  width: 20%;
+  float: left;
+  overflow: hidden;
+  padding: 12px;
+}
+main section article .inner {
+  width: 100%;
+  background: #fff;
+  padding: 14px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+main section article .inner img {
+  width: 100%;
+}
+main section article .inner h2 {
+  font: bold 11px/1 "orbitron";
+  letter-spacing: 1px;
+  color: #444;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+main section article .inner p {
+  font: 10px/1.2 "arial";
+  color: #777;
+  margin-bottom: 15px;
+}
 
 /*# sourceMappingURL=style.css.map */
